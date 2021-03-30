@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleres.css') }}">
+    <title>Relief Prediction</title>
+  </head>
+<center>
+   <body>
+<br>	
+<button class="btn success">Wind Speed :  {{wind}}</button><br>
+<button class="btn success">Rain Fall :  {{rain}}</button><br>
+<button class="btn success">Near Sea :  {{sea}}</button><br>
+<button class="btn success">Near River :  {{river}}</button><br>
+<button class="btn success">Development Status :  {{dev}}</button><br>
+<button class="btn success">Disaster :  {{dis}}</button><br>
+<button class="btn alert">Approximate Food Hamper in days: {{ x }}</button><br>
+<button class="btn alert">Approximate Electricity Hamper in days: {{ z }}</button><br>
+
+<img src="food.jpg" alt="" width="120" height="120">
+   </body>
+   </center>
+</html>

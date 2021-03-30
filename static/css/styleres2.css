@@ -1,0 +1,31 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+h3{
+  color:white;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: black;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+body{
+  background-image: url(../images/climate2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: new time roman ;
+}
+h1{
+  color:black !important;
+  font-weight: bold;
+}

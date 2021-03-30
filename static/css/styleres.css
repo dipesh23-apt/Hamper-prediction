@@ -1,0 +1,43 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 28px;
+  cursor: pointer;
+}
+.success {background-color: #327934;
+		width:400px;border-radius:10px;
+		height:60px;
+		box-shadow:-1px 1px 4px 4px white;
+		margin:20px;
+		font-family: "Times New Roman", Times, serif;
+		} /* Green */
+.success:hover {background-color: #18861B;}
+.alert{background-color: #B22222;
+		width:800px;
+		height:60px;
+		border-radius:10px;
+		box-shadow:-1px 1px 4px 4px white;
+		margin:20px;
+		font-family: "Times New Roman", Times, serif;
+		} 
+.alert:hover {background-color:#DC143C;}
+body{
+  background-image: url(../images/climate3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: new time roman ;
+}
+h1{
+  color:black !important;
+  font-weight: bold;
+}
+h2{
+  color:white;
+  float:center;
+  margin-left:400px;
+}
